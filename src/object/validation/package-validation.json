@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "check": "STRUCTURAL_PASS",
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "check": "PARSE_PASS",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "check": "SCHEMA_CONFORMANCE_PASS",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "check": "SEMANTIC_INVARIANT_PASS",
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "check": "INTEGRITY_PASS",
+      "excluded": [
+        "packet.manifest.json",
+        "validation/package-validation.json"
+      ],
+      "failures": [],
+      "inventory_entries": 21,
+      "status": "PASS"
+    },
+    {
+      "check": "IDENTITY_AND_ENTRYPOINT_PASS",
+      "failures": [],
+      "status": "PASS"
+    }
+  ],
+  "claims_proved": [
+    "STRUCTURAL_PASS",
+    "PARSE_PASS",
+    "SCHEMA_CONFORMANCE_PASS",
+    "SEMANTIC_INVARIANT_PASS",
+    "INTEGRITY_PASS",
+    "IDENTITY_AND_ENTRYPOINT_PASS"
+  ],
+  "nonclaims": [
+    "behavioral validation",
+    "independent validation",
+    "authorization",
+    "installation",
+    "activation",
+    "deployment",
+    "canonical adoption",
+    "release publication"
+  ],
+  "package": "OBJ-NICKLINNEY-SKILL-ABSTRACT-1.0.0",
+  "scope": "exact working-tree package at validation time",
+  "state": "VALIDATED_WITH_EXPLICIT_EVIDENCE",
+  "validator_version": "skill-abstract-object-validator-1.0.0"
+}

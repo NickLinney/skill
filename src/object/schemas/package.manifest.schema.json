@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nicklinney:skill-abstract-object:package-manifest:1.0.0",
+  "type": "object",
+  "required": ["object_id", "object_kind", "version", "entrypoint", "lifecycle", "applicability", "schema_bindings", "required_roles", "integrity", "nonclaims", "files"],
+  "properties": {"object_id": {"type": "string"}, "object_kind": {"type": "string"}, "version": {"type": "string"}, "entrypoint": {"type": "string"}, "lifecycle": {"type": "object"}, "applicability": {"type": "object"}, "schema_bindings": {"type": "array"}, "required_roles": {"type": "array"}, "integrity": {"type": "object"}, "nonclaims": {"type": "array"}, "files": {"type": "array"}}
+}

@@ -1,0 +1,166 @@
+{
+  "object_id": "OBJ-NICKLINNEY-SKILL-ABSTRACT-1.0.0",
+  "object_kind": "Skill Abstract Object / Abstract Object Specification",
+  "version": "0.0.0-pre-alpha.1",
+  "entrypoint": "ABSTRACT-OBJECT-SPECIFICATION.md",
+  "status": "constructed_with_qualified_validation",
+  "lifecycle": {
+    "state": "constructed_with_qualified_validation",
+    "installation": "not_authorized",
+    "activation": "not_authorized",
+    "canonical_adoption": "not_evidenced"
+  },
+  "applicability": {
+    "SKILL.md": "not_applicable",
+    "agents/": "required_package_metadata_not_runtime_execution",
+    "instantiations/": "not_applicable",
+    "abstract-specification": "required"
+  },
+  "schema_bindings": [
+    {
+      "artifact": "packet.manifest.json",
+      "schema": "schemas/package.manifest.schema.json"
+    },
+    {
+      "artifact": "objects/skill-abstract-object.record.json",
+      "schema": "schemas/object-record.schema.json"
+    }
+  ],
+  "integrity": {
+    "algorithm": "sha256",
+    "content_inventory_excludes": [
+      "packet.manifest.json",
+      "validation/package-validation.json"
+    ],
+    "manifest_integrity": "external_release_envelope_or_signature",
+    "self_hash": "not_claimed"
+  },
+  "required_roles": [
+    "manifest",
+    "applicable entrypoint",
+    "abstract specification",
+    "implementation abstract",
+    "contract",
+    "agents",
+    "applicability",
+    "catalog",
+    "objects",
+    "references",
+    "schemas",
+    "scripts",
+    "validation"
+  ],
+  "nonclaims": [
+    "not a concrete runnable Skill",
+    "not behavioral validation",
+    "not independent validation",
+    "not authorization, installation, activation, deployment, canonical adoption, or release publication"
+  ],
+  "files": [
+    {
+      "path": "ABSTRACT-OBJECT-SPECIFICATION.md",
+      "bytes": 2218,
+      "sha256": "8ec38bf9648c451fe4366a2129a245bb1168cb0c3c16ec5b989738d695f09d2f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 631,
+      "sha256": "aa1e125e7fae06fa299110221c8c04abc4c8458d2fa6823d2af86442ed32a36d"
+    },
+    {
+      "path": "abstract-specification.md",
+      "bytes": 210,
+      "sha256": "34a6a81e7b89772881dad471fc7f539711481b033997b18521ce939d1f8e299c"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 379,
+      "sha256": "42d38e689c9bacd3775e9e9999a71c16a36e2ee1099351dbc882947abda4905a"
+    },
+    {
+      "path": "applicability.json",
+      "bytes": 786,
+      "sha256": "9e4636e9f7da0d6254450f6743138ccf66f9607de83079ce7731d07d40d0d9d4"
+    },
+    {
+      "path": "catalog/source-register.json",
+      "bytes": 1525,
+      "sha256": "06516849dc96bfad5aef297f8b837ecda815bfef144d5310671da0c056aa64ed"
+    },
+    {
+      "path": "contract.md",
+      "bytes": 1784,
+      "sha256": "da29261dd55aa454b6b615f4a10d7b9ebd3134f00174befefe31e01915eb6d9d"
+    },
+    {
+      "path": "implementation-abstract.md",
+      "bytes": 1595,
+      "sha256": "865c132d88b7cbe4229f55b949287d3abf37158a3e236e5f31bf48e964c941a3"
+    },
+    {
+      "path": "instantiations/README.md",
+      "bytes": 169,
+      "sha256": "f83916d811fef66c01f7f4ef167e8c83624b11a0358dc5663187057651ebb09c"
+    },
+    {
+      "path": "lifecycle.json",
+      "bytes": 584,
+      "sha256": "d2aff840395f5c8c31e497ed3ee06937f94e4c7dad3d01d48855e8fb4fdcfbbd"
+    },
+    {
+      "path": "objects/README.md",
+      "bytes": 150,
+      "sha256": "d9bd8ce1a79e40fa2ee9beb1f0925dec44e8bcfc4cc30bd80f4ea371e8c73153"
+    },
+    {
+      "path": "objects/skill-abstract-object.record.json",
+      "bytes": 1364,
+      "sha256": "79777009573f2f761b09c5ef0e70c410272d4b64532dc54c13d4032b3abe9fb5"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 122,
+      "sha256": "f352b57478932fda2925b833b615c68f99077a878e418c25885cc9e35373f047"
+    },
+    {
+      "path": "references/conformance-and-evidence.md",
+      "bytes": 1392,
+      "sha256": "8ce230a3cbabf5b67faca484774a0a128749f214b167ac31376647da0e9db6ac"
+    },
+    {
+      "path": "references/semantic-mapping.md",
+      "bytes": 966,
+      "sha256": "3f55ab1a6c0972fa7f79d47d0d2455ae517b6c40f1dd69694819f2a62c5d350e"
+    },
+    {
+      "path": "schemas/object-record.schema.json",
+      "bytes": 789,
+      "sha256": "98fc311772c2372d3f53044854f29ceb21cf379480caf349486280bfc0f9d11a"
+    },
+    {
+      "path": "schemas/package.manifest.schema.json",
+      "bytes": 716,
+      "sha256": "ffb3d8a549ace01c5fdfc81c0a67c71cda4d6a2a79ab579d5bc70630b2014f5f"
+    },
+    {
+      "path": "scripts/refresh_manifest.py",
+      "bytes": 854,
+      "sha256": "32376faa25e471f1b1bd7466bcd41bd1f6cc0d30cb4405eaa8134301c6543f8d"
+    },
+    {
+      "path": "scripts/validate_package.py",
+      "bytes": 6223,
+      "sha256": "bb84fdb0d9278c6276439da4c966a50c2cbd2f01cfe1e2f6e01bbd292a2c520a"
+    },
+    {
+      "path": "unresolved-state.json",
+      "bytes": 625,
+      "sha256": "3710767e7e808a9e6c650076cd6802113fa7eef07ba34fb32f79a13774ed94b1"
+    },
+    {
+      "path": "validation/README.md",
+      "bytes": 377,
+      "sha256": "e4ab9f7e78ba0eb0d6c0bcd2cd5539be39fff2f15a9652503f5618b57c7d214b"
+    }
+  ]
+}

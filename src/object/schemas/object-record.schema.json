@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:nicklinney:skill-abstract-object:object-record:1.0.0",
+  "type": "object",
+  "required": ["object_id", "kind", "version", "purpose", "capability_bearing_object", "execution_model", "execution_modes", "contract_ref", "lifecycle_state", "nonclaims"],
+  "properties": {
+    "object_id": {"type": "string"}, "kind": {"const": "SkillAbstractObject"}, "version": {"type": "string"}, "purpose": {"type": "string"},
+    "capability_bearing_object": {"type": "object"}, "execution_model": {"type": "object"}, "execution_modes": {"type": "array", "items": {"type": "string"}},
+    "contract_ref": {"type": "string"}, "lifecycle_state": {"type": "string"}, "nonclaims": {"type": "array", "items": {"type": "string"}}
+  }
+}

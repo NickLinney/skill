@@ -1,0 +1,16 @@
+{
+  "object_id": "OBJ-NICKLINNEY-SKILL-ABSTRACT-1.0.0",
+  "authority_rule": "descriptive evidence does not self-authorize lifecycle transition",
+  "sources": [
+    {"id": "USER_PROMPT", "role": "governing_instruction", "locator": "attached prompt and current request"},
+    {"id": "THINKLIKEACIO", "role": "controlling_strategy", "locator": "/Users/nrlin/Codex Projects/FACTS CMS/Exports/Thinking Like a CIO/thinking-like-a-cio/NickLinney.Cybertronic - Thinking Like a CIO Skill Capability.md"},
+    {"id": "OBJECT_ALPHA_1", "role": "normative_comparison_baseline", "locator": "tag 1.0.0-alpha.1 at e8b9091bea8c533550fa5a1b08706043680c54fc"},
+    {"id": "CREATING_SKILL_FROM_CONTEXT", "role": "direct_skill_evidence", "locator": "/Users/nrlin/Codex Projects/NickLinney.Cybertronic Skills/creating-a-skill-from-available-context"},
+    {"id": "PRIOR_ABSTRACT_OBJECT_EXECUTION", "role": "local_prior_evidence", "locator": "abstract-object-specification-execution"}
+  ],
+  "derivations": [
+    {"source_ids": ["THINKLIKEACIO", "USER_PROMPT"], "target": "00-governance/mandate.json", "rule": "preserve role, authority, evidence, and state boundaries"},
+    {"source_ids": ["CREATING_SKILL_FROM_CONTEXT"], "target": "objects/skill-abstract-object.record.json", "rule": "retain capability Object plus Execution Model and extensible modes"},
+    {"source_ids": ["OBJECT_ALPHA_1"], "target": "packet.manifest.json", "rule": "apply applicability, schema binding, externalized manifest integrity, and machine-readable evidence"}
+  ]
+}

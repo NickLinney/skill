@@ -1,0 +1,19 @@
+{
+  "roles": {
+    "manifest": "REQUIRED",
+    "entrypoint": "REQUIRED_AS_ABSTRACT_SPECIFICATION",
+    "SKILL.md": "NOT_APPLICABLE_TARGET_IS_NOT_A_RUNNABLE_SKILL_OBJECT",
+    "abstract-specification": "REQUIRED",
+    "implementation-abstract": "REQUIRED",
+    "contract": "REQUIRED",
+    "agents": "REQUIRED_PACKAGE_METADATA_NOT_RUNTIME_EXECUTION",
+    "catalog": "REQUIRED",
+    "objects": "REQUIRED_ABSTRACT_TYPE_RECORD",
+    "instantiations": "NOT_APPLICABLE_NO_CONCRETE_EXECUTION",
+    "references": "REQUIRED",
+    "schemas": "REQUIRED",
+    "scripts": "REQUIRED_VALIDATOR",
+    "validation": "REQUIRED"
+  },
+  "rationale": "The target is an Abstract Object specification. Applicability is explicit so absent SKILL.md, agents, and instantiations are not mistaken for omissions."
+}

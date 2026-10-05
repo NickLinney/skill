@@ -1,0 +1,4 @@
+interface:
+  display_name: NickLinney Skill Abstract Object
+  short_description: Technology-independent Skill Object specification and conformance contract
+  default_prompt: Read ABSTRACT-OBJECT-SPECIFICATION.md and contract.md before evaluating Skill conformance; preserve the distinction between abstract type, implementation package, execution, validation, and authorization.

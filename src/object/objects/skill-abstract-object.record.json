@@ -1,0 +1,20 @@
+{
+  "object_id": "OBJ-NICKLINNEY-SKILL-ABSTRACT-1.0.0",
+  "kind": "SkillAbstractObject",
+  "version": "0.0.0-pre-alpha.1",
+  "purpose": "Technology-independent minimum semantics and conformance obligations of a Skill.",
+  "capability_bearing_object": {"required": true, "semantic_role": "primary_capability_object"},
+  "execution_model": {"required": true, "semantic_role": "associated_consumption_or_execution_method"},
+  "execution_modes": ["data", "interpreted", "declarative", "runnable", "hybrid"],
+  "contract_ref": "contract.md",
+  "context_packet_relationship": "NickLinney implementation profile; not universal abstract identity",
+  "conformance_levels": [
+    {"id": "S0", "name": "semantic_minimum", "obligations": ["universal semantic obligations"]},
+    {"id": "S1", "name": "package_structural", "obligations": ["S0", "Object package roles, schemas, provenance, lifecycle, integrity"]},
+    {"id": "S2", "name": "behaviorally_validated", "obligations": ["S1", "mode-appropriate execution evidence"]},
+    {"id": "S3", "name": "independently_reviewed", "obligations": ["S2", "independent validation evidence"]}
+  ],
+  "provenance_ref": "catalog/source-register.json",
+  "lifecycle_state": "constructed_with_qualified_validation",
+  "nonclaims": ["not a concrete runnable Skill", "not behavioral validation", "not authorization or release approval"]
+}

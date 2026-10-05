@@ -1,0 +1,13 @@
+{
+  "state": "constructed_with_qualified_validation",
+  "construction": "authorized by current user request",
+  "structural_validation": "performed locally",
+  "semantic_validation": "bounded review against sealed projections",
+  "behavioral_validation": "not applicable to abstract type; not performed for arbitrary concrete Skills",
+  "independent_validation": "not performed",
+  "release_evidence": "local working-tree artifact only",
+  "installation": "not_authorized",
+  "activation": "not_authorized",
+  "deployment": "not_authorized",
+  "canonical_adoption": "not_evidenced"
+}
